@@ -15,9 +15,10 @@ body{
 }
 #title{
     font-size: 64px;
-    color: white;
+    color: red; 
 }
 #description{
     color: white;
     font-size: 32px;
+    
 }

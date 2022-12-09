@@ -1,1 +1,1 @@
-console.log("hey ;)");
+(()=>{"use strict";!function(){const t=document.createElement("div");t.textContent="Sushi Restaurant",t.setAttribute("id","title"),document.querySelector("#content").appendChild(t),console.log("hey ;)")}()})();

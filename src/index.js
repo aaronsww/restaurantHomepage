@@ -1,1 +1,5 @@
-console.log("hey ;)");
+import {homeBase} from './home';
+
+homeBase();
+
+

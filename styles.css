@@ -21,6 +21,10 @@ body{
     margin: 40px;
     font-size: 32px;
 }
+#displayTitle{
+    font-size: 52px;
+    color: ghostwhite;
+}
 #title{
     font-size: 64px;
     color: red; 

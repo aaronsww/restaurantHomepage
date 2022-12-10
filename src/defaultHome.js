@@ -1,4 +1,5 @@
 import {homeBase} from './home';
+import {menuBase} from './menu';
 
 function defaultHome(){
     const content = document.querySelector("#content");
@@ -20,7 +21,7 @@ function defaultHome(){
     const displayTitle = document.createElement('div');
     displayTitle.textContent = "BIG TEXT";
     displayTitle.setAttribute('id','displayTitle');
-    
+
     const mainContent = document.createElement('div');
 
     topBar.appendChild(homeBtn);
@@ -31,6 +32,7 @@ function defaultHome(){
     content.appendChild(mainContent);
 
     homeBtn.addEventListener('click', () => {homeBase(mainContent);});
+    menuBtn.addEventListener('click', () => {menuBase(mainContent);});
 }
 
 export {defaultHome};

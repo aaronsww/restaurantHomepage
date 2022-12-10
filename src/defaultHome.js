@@ -16,14 +16,21 @@ function defaultHome(){
     const contactBtn = document.createElement('div');
     contactBtn.textContent = "Contact";
     contactBtn.setAttribute('id','contactBtn');
+
+    const displayTitle = document.createElement('div');
+    displayTitle.textContent = "BIG TEXT";
+    displayTitle.setAttribute('id','displayTitle');
     
+    const mainContent = document.createElement('div');
+
     topBar.appendChild(homeBtn);
     topBar.appendChild(menuBtn);
     topBar.appendChild(contactBtn);
     content.appendChild(topBar);
+    mainContent.appendChild(displayTitle);
+    content.appendChild(mainContent);
 
-    console.log("hey ;)");
-
+    homeBtn.addEventListener('click', () => {homeBase(mainContent);});
 }
 
 export {defaultHome};

@@ -1,5 +1,4 @@
-import {homeBase} from './home';
 
-homeBase();
+import {defaultHome} from './defaultHome';
 
-
+defaultHome();

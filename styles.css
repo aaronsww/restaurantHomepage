@@ -34,3 +34,9 @@ body{
     font-size: 32px;
     
 }
+#menuContainer{
+    background-color: aquamarine;
+    display: flex;
+    height: 400px;
+    width: 700px;
+}

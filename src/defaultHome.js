@@ -19,18 +19,15 @@ function defaultHome(){
     contactBtn.textContent = "Contact";
     contactBtn.setAttribute('id','contactBtn');
 
-    const displayTitle = document.createElement('div');
-    displayTitle.textContent = "BIG TEXT";
-    displayTitle.setAttribute('id','displayTitle');
-
     const mainContent = document.createElement('div');
 
     topBar.appendChild(homeBtn);
     topBar.appendChild(menuBtn);
     topBar.appendChild(contactBtn);
     content.appendChild(topBar);
-    mainContent.appendChild(displayTitle);
     content.appendChild(mainContent);
+
+    homeBase(mainContent);
 
     homeBtn.addEventListener('click', () => {
         homeBtn.style.color = "red";
@@ -48,5 +45,5 @@ function defaultHome(){
             contactBtn.style.color = "red";
             menuBase(mainContent);});
 }
-    
+
 export {defaultHome};

@@ -1,4 +1,4 @@
-import {defaultHome} from './defaultHome';
+import {defaultHome} from './defaultHome';  
 
 function contactBase(mainContent){
 

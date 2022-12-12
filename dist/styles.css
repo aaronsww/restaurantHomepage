@@ -49,4 +49,11 @@ body{
     margin: 10px;
     width: 330px;
     align-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+#dishes>img{
+    height: 270px;
+    width: 300px;
+    margin: 5px;
 }

@@ -9,6 +9,7 @@ function defaultHome(){
     const homeBtn = document.createElement('div');
     homeBtn.textContent = "Home";
     homeBtn.setAttribute('id','homeBtn');
+    homeBtn.style.color = "red";
 
     const menuBtn = document.createElement('div');
     menuBtn.textContent = "Menu";
@@ -31,8 +32,21 @@ function defaultHome(){
     mainContent.appendChild(displayTitle);
     content.appendChild(mainContent);
 
-    homeBtn.addEventListener('click', () => {homeBase(mainContent);});
-    menuBtn.addEventListener('click', () => {menuBase(mainContent);});
+    homeBtn.addEventListener('click', () => {
+        homeBtn.style.color = "red";
+        menuBtn.style.color = "white";
+        contactBtn.style.color = "white";
+        homeBase(mainContent);});
+    menuBtn.addEventListener('click', () => {
+        homeBtn.style.color = "white";
+        menuBtn.style.color = "red";
+        contactBtn.style.color = "white";
+        menuBase(mainContent);});
+        contactBtn.addEventListener('click', () => {
+            homeBtn.style.color = "white";
+            menuBtn.style.color = "white";
+            contactBtn.style.color = "red";
+            menuBase(mainContent);});
 }
-
+    
 export {defaultHome};

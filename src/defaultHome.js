@@ -1,5 +1,6 @@
 import {homeBase} from './home';
 import {menuBase} from './menu';
+import {contactBase} from './contact';
 
 function defaultHome(){
     const content = document.querySelector("#content");
@@ -43,7 +44,7 @@ function defaultHome(){
             homeBtn.style.color = "white";
             menuBtn.style.color = "white";
             contactBtn.style.color = "red";
-            menuBase(mainContent);});
+            contactBase(mainContent);});
 }
 
 export {defaultHome};

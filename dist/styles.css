@@ -50,7 +50,15 @@ body{
     width: 330px;
     align-self: stretch;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+#dishName{
+    font-size: 24px;
+}
+#dishContent{
+    font-size: 16px;
 }
 #dishes>img{
     height: max-content;

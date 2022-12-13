@@ -55,7 +55,7 @@ body{
     align-items: center;
 }
 #dishName{
-    font-size: 24px;
+    font-size: 20px;
 }
 #dishContent{
     font-size: 16px;
@@ -65,17 +65,21 @@ body{
     width: 320px ;
 }
 #contactContainer{
-    background-color: violet;
-    height: 600px;
+    background: rgba( 255, 255, 255, 40%);
+    height: 540px;
     width: 500px;
     margin: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 140px;
+    padding-top: 60px;
 }  
 #wording{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
 }
  

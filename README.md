@@ -13,6 +13,6 @@ This project is a simple restaurant homepage that demonstrates the use of ES6 mo
 ## Credits
 
 <ul>
-    <li>The Dishes on Menu by <a href="https://www.pexels.com/@yang-hao-155871170/">Yang Hao</a> are from <a href="https://www.pexels.com/">Pexels</a></li>
-    <li><a href="https://500px.com/photo/175772427/sushi-and-sashimi-variety-on-rustic-background-by-alena-haurylik">The main background</a> is from <a href="https://500px.com/">Pexels</a></li>
+    <li>Dishes on the menu by <a href="https://www.pexels.com/@yang-hao-155871170/">Yang Hao</a> are from <a href="https://www.pexels.com/">Pexels</a></li>
+    <li><a href="https://500px.com/photo/175772427/sushi-and-sashimi-variety-on-rustic-background-by-alena-haurylik">The main background</a> is from <a href="https://500px.com/">500 px</a></li>
 </ul>

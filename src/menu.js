@@ -17,10 +17,10 @@ function menuBase(mainContent){
     img1.src = "/dist/images/dish1.jpg"; 
     dishOne.appendChild(img1);
     const dishOneName = document.createElement('div');
-    dishOneName.textContent = "first dish"
+    dishOneName.textContent = "Prawn Tempura Sushi Roll"
     dishOneName.setAttribute('id','dishName');
     const dishOneContent = document.createElement('div');
-    dishOneContent.textContent = "this is what the dish is about"
+    dishOneContent.textContent = "Prawn tempura with seasonal vegetable"
     dishOneContent.setAttribute('id','dishContent');
     dishOne.appendChild(dishOneName);
     dishOne.appendChild(dishOneContent);
@@ -32,10 +32,10 @@ function menuBase(mainContent){
     img2.src = "/dist/images/dish2.jpg"; 
     dishTwo.appendChild(img2);
     const dishTwoName = document.createElement('div');
-    dishTwoName.textContent = "first dish"
+    dishTwoName.textContent = "Tofu Salad Sushi Roll"
     dishTwoName.setAttribute('id','dishName');
     const dishTwoContent = document.createElement('div');
-    dishTwoContent.textContent = "this is what the dish is about"
+    dishTwoContent.textContent = "Fried tofu with seasonal vegetable"
     dishTwoContent.setAttribute('id','dishContent');
     dishTwo.appendChild(dishTwoName);
     dishTwo.appendChild(dishTwoContent);
@@ -47,10 +47,10 @@ function menuBase(mainContent){
     img3.src = "/dist/images/dish3.jpg"; 
     dishThree.appendChild(img3);
     const dishThreeName = document.createElement('div');
-    dishThreeName.textContent = "first dish"
+    dishThreeName.textContent = "Crab Mayo Sushi Roll"
     dishThreeName.setAttribute('id','dishName');
     const dishThreeContent = document.createElement('div');
-    dishThreeContent.textContent = "this is what the dish is about"
+    dishThreeContent.textContent = "Processed crab meat stick"
     dishThreeContent.setAttribute('id','dishContent');
     dishThree.appendChild(dishThreeName);
     dishThree.appendChild(dishThreeContent);
@@ -62,10 +62,10 @@ function menuBase(mainContent){
     img4.src = "/dist/images/dish4.jpg"; 
     dishFour.appendChild(img4);
     const dishFourName = document.createElement('div');
-    dishFourName.textContent = "first dish"
+    dishFourName.textContent = "Cheese Sushi Roll"
     dishFourName.setAttribute('id','dishName');
     const dishFourContent = document.createElement('div');
-    dishFourContent.textContent = "this is what the dish is about"
+    dishFourContent.textContent = "Cheese, chicken sausage with seasonal vegetable"
     dishFourContent.setAttribute('id','dishContent');
     dishFour.appendChild(dishFourName);
     dishFour.appendChild(dishFourContent);
@@ -74,13 +74,13 @@ function menuBase(mainContent){
     const dishFive = document.createElement('div');
     dishFive.setAttribute('id','dishes');
     const img5 = document.createElement("img");
-    img5.src = "/dist/images/dish5.jpg"; 
+    img5.src = "/dist/images/dish6.jpg "; 
     dishFive.appendChild(img5);
     const dishFiveName = document.createElement('div');
-    dishFiveName.textContent = "first dish"
+    dishFiveName.textContent = "Salmon Sushi Roll"
     dishFiveName.setAttribute('id','dishName');
     const dishFiveContent = document.createElement('div');
-    dishFiveContent.textContent = "this is what the dish is about"
+    dishFiveContent.textContent = "Salmon, eggless mayonnaise and seaweed"
     dishFiveContent.setAttribute('id','dishContent');
     dishFive.appendChild(dishFiveName);
     dishFive.appendChild(dishFiveContent);
@@ -89,13 +89,13 @@ function menuBase(mainContent){
     const dishSix = document.createElement('div');
     dishSix.setAttribute('id','dishes');
     const img6 = document.createElement("img");
-    img6.src = "/dist/images/dish6.jpg"; 
+    img6.src = "/dist/images/dish5.jpg "; 
     dishSix.appendChild(img6);
     const dishSixName = document.createElement('div');
-    dishSixName.textContent = "first dish"
+    dishSixName.textContent = "Sushi Family Set"
     dishSixName.setAttribute('id','dishName');
     const dishSixContent = document.createElement('div');
-    dishSixContent.textContent = "this is what the dish is about"
+    dishSixContent.textContent = "Tuna, Salmon, Egg, Prawn and Eel fish sushi"
     dishSixContent.setAttribute('id','dishContent');
     dishSix.appendChild(dishSixName);
     dishSix.appendChild(dishSixContent);

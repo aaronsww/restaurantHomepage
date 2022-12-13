@@ -8,16 +8,16 @@ function defaultHome(){
     topBar.setAttribute('id','topBar');
 
     const homeBtn = document.createElement('div');
-    homeBtn.textContent = "Home";
+    homeBtn.textContent = "HOME";
     homeBtn.setAttribute('id','homeBtn');
     homeBtn.style.color = "red";
 
     const menuBtn = document.createElement('div');
-    menuBtn.textContent = "Menu";
+    menuBtn.textContent = "MENU";
     menuBtn.setAttribute('id','menuBtn');
 
     const contactBtn = document.createElement('div');
-    contactBtn.textContent = "Contact";
+    contactBtn.textContent = "CONTACT";
     contactBtn.setAttribute('id','contactBtn');
 
     const mainContent = document.createElement('div');

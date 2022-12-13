@@ -5,7 +5,7 @@ body{
 #content{
     width: 100%;
     height: 100vh;
-    background-image: url('images/sushi.jpg');
+    background-image: url('/src/image/sushii.png');
     background-size: 100%;
 }
 #topBar{
@@ -36,16 +36,17 @@ body{
     padding: 0px 200px 0px 200px;
 }
 #menuContainer{
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 80%);
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     height: 600px;
     width: 1050px;
     margin: 40px;
+    color: rgb(207, 201, 201);
 }   
 #dishes{
-    background-color: cadetblue;
+    background-color: black;
     margin: 10px;
     width: 330px;
     align-self: stretch;

@@ -1,12 +1,13 @@
 import {homeBase} from './home';
 import {menuBase} from './menu';
 import {contactBase} from './contact';
+import sushiBackground from './image/sushii.png';
 
 function defaultHome(){
     const content = document.querySelector("#content");
     const topBar = document.createElement('div');
     topBar.setAttribute('id','topBar');
-
+ 
     const homeBtn = document.createElement('div');
     homeBtn.textContent = "HOME";
     homeBtn.setAttribute('id','homeBtn');

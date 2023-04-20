@@ -8,7 +8,9 @@ This project is a simple restaurant homepage that demonstrates the use of ES6 mo
 
 ### In Action
 
-<img src="images/Etch-a-Sketch - Google Chrome 26-08-2022 15_19_47.png" alt="">
+<img src="src/image/Document - Google Chrome 20-04-2023 09_48_38.png" alt="">
+<img src="src\image\Document - Google Chrome 20-04-2023 09_49_50.png" alt="">
+<img src="src\image\Document - Google Chrome 20-04-2023 09_49_54.png" alt="">
 
 ## Credits
 

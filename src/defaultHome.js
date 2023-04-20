@@ -35,7 +35,7 @@ function defaultHome(){
         homeBtn.style.color = "red";
         menuBtn.style.color = "white";
         contactBtn.style.color = "white";
-        homeBase(mainContent);});
+        homeBase(mainContent);});   
     menuBtn.addEventListener('click', () => {
         homeBtn.style.color = "white";
         menuBtn.style.color = "red";

@@ -1,4 +1,4 @@
-# restaurantHomepage
+# Restaurant Homepage
 
 <a href="https://aaronsww.github.io/restaurantHomepage">Live Demonstration.</a>
 
